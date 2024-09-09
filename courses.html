@@ -14,6 +14,12 @@
     <link rel="stylesheet" href="assets/css/vendor.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/color.css">
+
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
 
 </head>
 
@@ -56,60 +62,21 @@
                 <div class="logo">
                     <a href="index.html"><img style="height: 80px;" src="assets/img/logo-2.png" alt="img"></a>
                 </div>
-                <div class="nav-right-part nav-right-part-mobile">
-                    <a class="btn btn-base" href="signup.html">Sign Up</a>
-                </div>
                 <div class="collapse navbar-collapse" id="edumint_main_menu">
                     <ul class ="navbar-nav menu-open">
-                        <!-- <li class="menu-item-has-children current-menu-item"> -->
                         <Li>
-                            <!-- <a href="#">Home</a> -->
                             <a href="index.html">Home</a>
-                            <!-- <ul class="sub-menu">
-                                <li><a href="index.html">Home 01</a></li>
-                                <li><a href="index-2.html">Home 02</a></li>
-                                <li><a href="index-3.html">Home 03</a></li>
-                            </ul> -->
                         </li>
-                        <!-- <li class="menu-item-has-children"> -->
                         <li>
-                            <!-- <a href="javascript:void(0)">Course</a> -->
-                            <a href="course.html">Course</a>
-
-                            <!-- <ul class="sub-menu">
-                                <li><a href="course.html">Course</a></li>
-                                <li><a href="course-details.html">Course Single</a></li>
-                            </ul> -->
+                            <a href="courses.html">Courses</a>
                         </li>
-                        <!-- <li class="menu-item-has-children">
-                            <a href="#">Pages</a>
-                            <ul class="sub-menu">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="event.html">Event</a></li>
-                                <li><a href="event-details.html">Event Details</a></li>
-                                <li><a href="team.html">Instructor</a></li>
-                                <li><a href="team-details.html">Instructor Details</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
-                                <li><a href="gallery.html">Gallery</a></li>
-                                <li><a href="signin.html">Sign In</a></li>
-                                <li><a href="signup.html">Sign Up</a></li>
-                            </ul>
-                        </li> -->
                         <li>
                             <a href="about.html">About Us</a>
                         </li>
                         <li><a href="gallery.html">Gallery</a></li>
-                        <!-- <li class="menu-item-has-children">
-                            <a href="#">Blog</a>
-                            <ul class="sub-menu">
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="blog-grid.html">Blog Grid</a></li>
-                                <li><a href="blog-details.html">Blog Details</a></li>
-                            </ul>
-                        </li> -->
-                        <li><a href="blog-grid.html">Blog</a></li>
+                            <li><a href="blog-grid.html">Blog</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
-                        <li><a href="signin.html">Join Now</a></li>
+                        <li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">Join Now</a></li>
                     </ul>
                 </div>
                 <div class="nav-right-part nav-right-part-desktop style-black">
@@ -129,8 +96,42 @@
     <!-- navbar end -->
 
     <!-- breadcrumb start -->
-    <div class="breadcrumb-area bg-overlay" style="background-image:url('assets/img/bg/3.png')">
-        <div class="container">
+    <div class="breadcrumb-area breadcrumb-area-courses ">
+        <div class="courses-slider">
+            <div class="course-slide">
+                <div class="image">
+                    <img src="assets/img/bg/web-development.png"  alt="">
+                </div>
+            </div>
+            <div class="course-slide">
+                <div class="image">
+                    <img src="assets/img/bg/web-designing.png" alt="">
+                </div>
+            </div>
+            <div class="course-slide">
+                <div class="image">
+                    <img src="assets/img/bg/english-spoken.png" alt="">
+                </div>
+            </div>
+            <div class="course-slide">
+                <div class="image">
+                    <img src="assets/img/bg/social-media-marketing.png" alt="">
+                </div>
+            </div>
+            <div class="course-slide">
+                <div class="image">
+                    <img src="assets/img/bg/facebook.png" alt="">
+                </div>
+            </div>
+            <div class="course-slide">
+                <div class="image">
+                    <img src="assets/img/bg/react-native.png" alt="">
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="container bg-overlay">
             <div class="breadcrumb-inner">
                 <div class="section-title mb-0 text-center">
                     <h2 class="page-title">Courses</h2>
@@ -153,323 +154,9 @@
                         <div class="col-md-4">
                             <div class="single-course-inner">
                                 <div class="thumb">
-                                    <img src="assets/img/course/office auto.jpg" alt="img">
-                                </div>
-                                <div class="details">
-                                    <div class="details-inner">
-                                        <div class="emt-user">
-                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
-                                            <span class="align-self-center">Office automation</span>
-                                        </div>
-                                        <h6><a href="course-details.html">Office automation streamlines office tasks.</a></h6>
-                                    </div>
-                                    <div class="emt-course-meta">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <!-- <div class="rating">
-                                                    <i class="fa fa-star"></i> 4.3
-                                                    <span>(23)</span>
-                                                </div> -->
-                                                <p>APPLY NOW</p>
-                                            </div>
-                                            <div class="col-6">
-                                                <div class="price text-right">
-                                                    Price: <span>$54.00</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="single-course-inner">
-                                <div class="thumb">
-                                    <img src="assets/img/course/Webserver.png" alt="img">
-                                </div>
-                                <div class="details">
-                                    <div class="details-inner">
-                                        <div class="emt-user">
-                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
-                                            <span class="align-self-center">Web Server Deployment</span>
-                                        </div>
-                                        <h6><a href="course-details.html">Web server deployment sets up a web server to host websites.</a></h6>
-                                    </div>
-                                    <div class="emt-course-meta">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <!-- <div class="rating">
-                                                    <i class="fa fa-star"></i> 4.3
-                                                    <span>(23)</span>
-                                                </div> -->
-                                                <p>APPLY NOW</p>
-                                            </div>
-                                            <div class="col-6">
-                                                <div class="price text-right">
-                                                    Price: <span>$54.00</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="single-course-inner">
-                                <div class="thumb">
-                                    <img src="assets/img/course/social media.jpg" alt="img">
-                                </div>
-                                <div class="details">
-                                    <div class="details-inner">
-                                        <div class="emt-user">
-                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
-                                            <span class="align-self-center">Social media Marketing</span>
-                                        </div>
-                                        <h6><a href="course-details.html">Social media marketing uses social media for promotion.</a></h6>
-                                    </div>
-                                    <div class="emt-course-meta">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <p>APPLY NOW</p>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="price text-right">
-                                                    Price: <span>$74.00</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="single-course-inner">
-                                <div class="thumb">
-                                    <img src="assets/img/course/graphic.jpg" alt="img">
-                                </div>
-                                <div class="details">
-                                    <div class="details-inner">
-                                        <div class="emt-user">
-                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
-                                            <span class="align-self-center">Graphic Designing</span>
-                                        </div>
-                                        <h6><a href="course-details.html">Graphic designing creates visual content for communication.</a></h6>
-                                    </div>
-                                    <div class="emt-course-meta">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <p>APPLY NOW</p>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="price text-right">
-                                                    Price: <span>$74.00</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="single-course-inner">
-                                <div class="thumb">
-                                    <img src="assets/img/course/WhatsApp Image 2024-08-20 at 8.44.48 AM.jpeg" alt="img">
-                                </div>
-                                <div class="details">
-                                    <div class="details-inner">
-                                        <div class="emt-user">
-                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
-                                            <span class="align-self-center">English Spoken</span>
-                                        </div>
-                                        <h6><a href="course-details.html">English speaking is the ability to communicate effectively in English.</a></h6>
-                                    </div>
-                                    <div class="emt-course-meta">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <p>APPLY NOW</p>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="price text-right">
-                                                    Price: <span>$74.00</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="single-course-inner">
-                                <div class="thumb">
-                                    <img src="assets/img/course/facebook.jpg" alt="img">
-                                </div>
-                                <div class="details">
-                                    <div class="details-inner">
-                                        <div class="emt-user">
-                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
-                                            <span class="align-self-center">Facebook Ads</span>
-                                        </div>
-                                        <h6><a href="course-details.html">Facebook ads promote content on the Facebook platform</a></h6>
-                                    </div>
-                                    <div class="emt-course-meta">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <p>APPLY NOW</p>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="price text-right">
-                                                    Price: <span>$74.00</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="single-course-inner">
-                                <div class="thumb">
-                                    <img src="assets/img/course/instagram.jpg" alt="img">
-                                </div>
-                                <div class="details">
-                                    <div class="details-inner">
-                                        <div class="emt-user">
-                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
-                                            <span class="align-self-center">Instagram Ads</span>
-                                        </div>
-                                        <h6><a href="course-details.html">Instagram ads promote content on the Instagram platform.</a></h6>
-                                    </div>
-                                    <div class="emt-course-meta">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <p>APPLY NOW</p>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="price text-right">
-                                                    Price: <span>$74.00</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="single-course-inner">
-                                <div class="thumb">
-                                    <img src="assets/img/course/google ads.jpg" alt="img">
-                                </div>
-                                <div class="details">
-                                    <div class="details-inner">
-                                        <div class="emt-user">
-                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
-                                            <span class="align-self-center">Google Ads</span>
-                                        </div>
-                                        <h6><a href="course-details.html">Google Ads promote content on the Google search network.</a></h6>
-                                    </div>
-                                    <div class="emt-course-meta">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <p>APPLY NOW</p>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="price text-right">
-                                                    Price: <span>$74.00</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="single-course-inner">
-                                <div class="thumb">
-                                    <img src="assets/img/course/youtube ads.jpg" alt="img">
-                                </div>
-                                <div class="details">
-                                    <div class="details-inner">
-                                        <div class="emt-user">
-                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
-                                            <span class="align-self-center">Youtube Ads</span>
-                                        </div>
-                                        <h6><a href="course-details.html">YouTube ads promote content on the YouTube platform.</a></h6>
-                                    </div>
-                                    <div class="emt-course-meta">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <p>APPLY NOW</p>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="price text-right">
-                                                    Price: <span>$74.00</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="single-course-inner">
-                                <div class="thumb">
-                                    <img src="assets/img/course/video editing.png" alt="img">
-                                </div>
-                                <div class="details">
-                                    <div class="details-inner">
-                                        <div class="emt-user">
-                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
-                                            <span class="align-self-center">Video Editing</span>
-                                        </div>
-                                        <h6><a href="course-details.html">Video editing manipulates and combines video footage to create a final product.</a></h6>
-                                    </div>
-                                    <div class="emt-course-meta">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <p>APPLY NOW</p>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="price text-right">
-                                                    Price: <span>$74.00</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="single-course-inner">
-                                <div class="thumb">
-                                    <img src="assets/img/course/Web Development.png" alt="img">
-                                </div>
-                                <div class="details">
-                                    <div class="details-inner">
-                                        <div class="emt-user">
-                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
-                                            <span class="align-self-center">Web Development</span>
-                                        </div>
-                                        <h6><a href="course-details.html">Web development creates websites and web applications.</a></h6>
-                                    </div>
-                                    <div class="emt-course-meta">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <p>APPLY NOW</p>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="price text-right">
-                                                    Price: <span>$74.00</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="single-course-inner">
-                                <div class="thumb">
-                                    <img src="assets/img/course/Web Designing.png" alt="img">
+                                    <a href="Web Designing.html">
+                                        <img src="assets/img/course/Web Designing.png" alt="img">
+                                    </a>
                                 </div>
                                 <div class="details">
                                     <div class="details-inner">
@@ -477,18 +164,14 @@
                                             <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
                                             <span class="align-self-center">Web Designing</span>
                                         </div>
-                                        <h6><a href="course-details.html">Web designing creates the visual layout and structure of websites.</a></h6>
+                                        <h6><a href="Web Designing.html">Web designing creates the visual layout and structure of websites.</a></h6>
                                     </div>
                                     <div class="emt-course-meta">
                                         <div class="row">
                                             <div class="col-6">
-                                                <p>APPLY NOW</p>
+                                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">APPLY NOW</a></p>
                                             </div>
-                                            <div class="col-lg-6">
-                                                <div class="price text-right">
-                                                    Price: <span>$74.00</span>
-                                                </div>
-                                            </div>
+                                             
                                         </div>
                                     </div>
                                 </div>
@@ -497,7 +180,35 @@
                         <div class="col-md-4">
                             <div class="single-course-inner">
                                 <div class="thumb">
-                                    <img src="assets/img/course/UIUX.png" alt="img">
+                                    <a href="Web Development.html">
+                                        <img src="assets/img/course/Web Development.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="details">
+                                    <div class="details-inner">
+                                        <div class="emt-user">
+                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
+                                            <span class="align-self-center">Web Development</span>
+                                        </div>
+                                        <h6><a href="Web Development.html">Web development creates websites and web applications.</a></h6>
+                                    </div>
+                                    <div class="emt-course-meta">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">APPLY NOW</a></p>
+                                            </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-course-inner">
+                                <div class="thumb">
+                                    <a href="UIUX designing.html">
+                                        <img src="assets/img/course/UIUX.png" alt="img">
+                                    </a>
                                 </div>
                                 <div class="details">
                                     <div class="details-inner">
@@ -505,224 +216,28 @@
                                             <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
                                             <span class="align-self-center">UI/UX designing</span>
                                         </div>
-                                        <h6><a href="course-details.html">UI/UX design creates user-friendly interfaces.</a></h6>
+                                        <h6><a href="UIUX designing.html">UI/UX design creates user-friendly interfaces.</a></h6>
                                     </div>
                                     <div class="emt-course-meta">
                                         <div class="row">
                                             <div class="col-6">
-                                                <p>APPLY NOW</p>
+                                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">APPLY NOW</a></p>
                                             </div>
-                                            <div class="col-lg-6">
-                                                <div class="price text-right">
-                                                    Price: <span>$74.00</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="single-course-inner">
-                                <div class="thumb">
-                                    <img src="assets/img/course/freelancing.png" alt="img">
-                                </div>
-                                <div class="details">
-                                    <div class="details-inner">
-                                        <div class="emt-user">
-                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
-                                            <span class="align-self-center">Freelancing</span>
-                                        </div>
-                                        <h6><a href="course-details.html">Freelancing is working independently on projects for clients.</a></h6>
-                                    </div>
-                                    <div class="emt-course-meta">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <p>APPLY NOW</p>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="price text-right">
-                                                    Price: <span>$74.00</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="single-course-inner">
-                                <div class="thumb">
-                                    <img src="assets/img/course/DIT.png" alt="img">
-                                </div>
-                                <div class="details">
-                                    <div class="details-inner">
-                                        <div class="emt-user">
-                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
-                                            <span class="align-self-center">DIT</span>
-                                        </div>
-                                        <h6><a href="course-details.html">DIT can refer to different things, but often involves information technology.</a></h6>
-                                    </div>
-                                    <div class="emt-course-meta">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <p>APPLY NOW</p>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="price text-right">
-                                                    Price: <span>$74.00</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="single-course-inner">
-                                <div class="thumb">
-                                    <img src="assets/img/course/CIT.png" alt="img">
-                                </div>
-                                <div class="details">
-                                    <div class="details-inner">
-                                        <div class="emt-user">
-                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
-                                            <span class="align-self-center">CIT</span>
-                                        </div>
-                                        <h6><a href="course-details.html">CIT is often related to computer information technology.</a></h6>
-                                    </div>
-                                    <div class="emt-course-meta">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <p>APPLY NOW</p>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="price text-right">
-                                                    Price: <span>$74.00</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="single-course-inner">
-                                <div class="thumb">
-                                    <img src="assets/img/course/Ecomerce.png" alt="img">
-                                </div>
-                                <div class="details">
-                                    <div class="details-inner">
-                                        <div class="emt-user">
-                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
-                                            <span class="align-self-center">E-Commerce</span>
-                                        </div>
-                                        <h6><a href="course-details.html">E-commerce is the buying and selling of goods and services online</a></h6>
-                                    </div>
-                                    <div class="emt-course-meta">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <p>APPLY NOW</p>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="price text-right">
-                                                    Price: <span>$74.00</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="single-course-inner">
-                                <div class="thumb">
-                                    <img src="assets/img/course/ReactNative.png" alt="img">
-                                </div>
-                                <div class="details">
-                                    <div class="details-inner">
-                                        <div class="emt-user">
-                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
-                                            <span class="align-self-center">React Native App Development</span>
-                                        </div>
-                                        <h6><a href="course-details.html">React Native app development creates mobile apps using JavaScript and React</a></h6>
-                                    </div>
-                                    <div class="emt-course-meta">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <p>APPLY NOW</p>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="price text-right">
-                                                    Price: <span>$74.00</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="single-course-inner">
-                                <div class="thumb">
-                                    <img src="assets/img/course/SEO.png" alt="img">
-                                </div>
-                                <div class="details">
-                                    <div class="details-inner">
-                                        <div class="emt-user">
-                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
-                                            <span class="align-self-center">SEO</span>
-                                        </div>
-                                        <h6><a href="course-details.html">Process of optimizing a website to rank higher in search engine results.</a></h6>
-                                    </div>
-                                    <div class="emt-course-meta">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <p>APPLY NOW</p>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="price text-right">
-                                                    Price: <span>$74.00</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="single-course-inner">
-                                <div class="thumb">
-                                    <img src="assets/img/course/ILETS.png" alt="img">
-                                </div>
-                                <div class="details">
-                                    <div class="details-inner">
-                                        <div class="emt-user">
-                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
-                                            <span class="align-self-center">IELTS</span>
-                                        </div>
-                                        <h6><a href="course-details.html">IELTS is an international English language testing system.</a></h6>
-                                    </div>
-                                    <div class="emt-course-meta">
-                                        <div class="row">
-                                            <div class="col-6">
                                              
-                                                <p>APPLY NOW</p>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="price text-right">
-                                                    Price: <span>$74.00</span>
-                                                </div>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        
+                        
+                        
                         <div class="col-md-4">
                             <div class="single-course-inner">
                                 <div class="thumb">
-                                    <img src="assets/img/course/Shopify.png" alt="img">
+                                    <a href="Shopify .html">
+                                        <img src="assets/img/course/Shopify.png" alt="img">
+                                    </a>
                                 </div>
                                 <div class="details">
                                     <div class="details-inner">
@@ -730,19 +245,15 @@
                                             <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
                                             <span class="align-self-center">Shopify</span>
                                         </div>
-                                        <h6><a href="course-details.html">Shopify is an e-commerce platform for online store.</a></h6>
+                                        <h6><a href="Shopify .html">Shopify is an e-commerce platform for online store.</a></h6>
                                     </div>
                                     <div class="emt-course-meta">
                                         <div class="row">
                                             <div class="col-6">
                                              
-                                                <p>APPLY NOW</p>
+                                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">APPLY NOW</a></p>
                                             </div>
-                                            <div class="col-lg-6">
-                                                <div class="price text-right">
-                                                    Price: <span>$74.00</span>
-                                                </div>
-                                            </div>
+                                             
                                         </div>
                                     </div>
                                 </div>
@@ -751,7 +262,9 @@
                         <div class="col-md-4">
                             <div class="single-course-inner">
                                 <div class="thumb">
-                                    <img src="assets/img/course/Github.png" alt="img">
+                                    <a href="GitHub Course.html">
+                                        <img src="assets/img/course/Github.png" alt="img">
+                                    </a>
                                 </div>
                                 <div class="details">
                                     <div class="details-inner">
@@ -759,18 +272,337 @@
                                             <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
                                             <span class="align-self-center">GITHUB</span>
                                         </div>
-                                        <h6><a href="course-details.html">GitHub is a platform for hosting and collaborating on code projects.</a></h6>
+                                        <h6><a href="GitHub Course.html">GitHub is a platform for hosting and collaborating on code projects.</a></h6>
                                     </div>
                                     <div class="emt-course-meta">
                                         <div class="row">
                                             <div class="col-6">
                                              
-                                                <p>APPLY NOW</p>
+                                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">APPLY NOW</a></p>
                                             </div>
-                                            <div class="col-lg-6">
-                                                <div class="price text-right">
-                                                    Price: <span>$74.00</span>
-                                                </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-course-inner">
+                                <div class="thumb">
+                                    <a href="Python.html">
+                                        <img src="assets/img/course/Python.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="details">
+                                    <div class="details-inner">
+                                        <div class="emt-user">
+                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
+                                            <span class="align-self-center">Python</span>
+                                        </div>
+                                        <h6><a href="Python.html">Popular programming language used for various applications.</a></h6>
+                                    </div>
+                                    <div class="emt-course-meta">
+                                        <div class="row">
+                                            <div class="col-6">
+                                             
+                                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">APPLY NOW</a></p>
+                                            </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-course-inner">
+                                <div class="thumb">
+                                    <a href="Web Server Deployment.html">
+                                        <img src="assets/img/course/Webserver.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="details">
+                                    <div class="details-inner">
+                                        <div class="emt-user">
+                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
+                                            <span class="align-self-center">Web Server Deployment</span>
+                                        </div>
+                                        <h6><a href="Web Server Deployment.html">Web server deployment sets up a web server to host websites.</a></h6>
+                                    </div>
+                                    <div class="emt-course-meta">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <!-- <div class="rating">
+                                                    <i class="fa fa-star"></i> 4.3
+                                                    <span>(23)</span>
+                                                </div> -->
+                                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">APPLY NOW</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+ 
+                        <div class="col-md-4">
+                            <div class="single-course-inner">
+                                <div class="thumb">
+                                    <a href="Video Editing.html">
+                                        <img src="assets/img/course/video editing.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="details">
+                                    <div class="details-inner">
+                                        <div class="emt-user">
+                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
+                                            <span class="align-self-center">Video Editing</span>
+                                        </div>
+                                        <h6><a href="Video Editing.html">Video editing manipulates and combines video footage to create a final product.</a></h6>
+                                    </div>
+                                    <div class="emt-course-meta">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">APPLY NOW</a></p>
+                                            </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="single-course-inner">
+                                <div class="thumb">
+                                    <a href="Freelancing.html">
+                                        <img src="assets/img/course/freelancing.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="details">
+                                    <div class="details-inner">
+                                        <div class="emt-user">
+                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
+                                            <span class="align-self-center">Freelancing</span>
+                                        </div>
+                                        <h6><a href="Freelancing.html">Freelancing is working independently on projects for clients.</a></h6>
+                                    </div>
+                                    <div class="emt-course-meta">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">APPLY NOW</a></p>
+                                            </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-course-inner">
+                                <div class="thumb">
+                                    <a href="DIT.html">
+                                        <img src="assets/img/course/DIT.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="details">
+                                    <div class="details-inner">
+                                        <div class="emt-user">
+                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
+                                            <span class="align-self-center">DIT</span>
+                                        </div>
+                                        <h6><a href="DIT.html">DIT can refer to different things, but often involves information technology.</a></h6>
+                                    </div>
+                                    <div class="emt-course-meta">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">APPLY NOW</a></p>
+                                            </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-course-inner">
+                                <div class="thumb">
+                                    <a href="CIT.html">
+                                        <img src="assets/img/course/CIT.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="details">
+                                    <div class="details-inner">
+                                        <div class="emt-user">
+                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
+                                            <span class="align-self-center">CIT</span>
+                                        </div>
+                                        <h6><a href="CIT.html">CIT is often related to computer information technology.</a></h6>
+                                    </div>
+                                    <div class="emt-course-meta">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">APPLY NOW</a></p>
+                                            </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-course-inner">
+                                <div class="thumb">
+                                    <a href="E-Commerce.html">
+                                        <img src="assets/img/course/Ecomerce.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="details">
+                                    <div class="details-inner">
+                                        <div class="emt-user">
+                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
+                                            <span class="align-self-center">E-Commerce</span>
+                                        </div>
+                                        <h6><a href="E-Commerce.html">E-commerce is the buying and selling of goods and services online</a></h6>
+                                    </div>
+                                    <div class="emt-course-meta">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">APPLY NOW</a></p>
+                                            </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-course-inner">
+                                <div class="thumb">
+                                    <a href="React Native App Development.html">
+                                        <img src="assets/img/course/ReactNative.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="details">
+                                    <div class="details-inner">
+                                        <div class="emt-user">
+                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
+                                            <span class="align-self-center">React Native App Development</span>
+                                        </div>
+                                        <h6><a href="React Native App Development.html">React Native app development creates mobile apps using JavaScript and React</a></h6>
+                                    </div>
+                                    <div class="emt-course-meta">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">APPLY NOW</a></p>
+                                            </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="single-course-inner">
+                                <div class="thumb">
+                                    <a href="English Spoken.html">
+                                        <img src="assets/img/course/WhatsApp Image 2024-08-20 at 8.44.48 AM.jpeg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="details">
+                                    <div class="details-inner">
+                                        <div class="emt-user">
+                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
+                                            <span class="align-self-center">English Spoken</span>
+                                        </div>
+                                        <h6><a href="English Spoken.html">English speaking is the ability to communicate effectively in English.</a></h6>
+                                    </div>
+                                    <div class="emt-course-meta">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">APPLY NOW</a></p>
+                                            </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-course-inner">
+                                <div class="thumb">
+                                    <a href="IELTS.html">
+                                        <img src="assets/img/course/ILETS.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="details">
+                                    <div class="details-inner">
+                                        <div class="emt-user">
+                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
+                                            <span class="align-self-center">IELTS</span>
+                                        </div>
+                                        <h6><a href="IELTS.html">IELTS is an international English language testing system.</a></h6>
+                                    </div>
+                                    <div class="emt-course-meta">
+                                        <div class="row">
+                                            <div class="col-6">
+                                             
+                                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">APPLY NOW</a></p>
+                                            </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-course-inner">
+                                <div class="thumb">
+                                    <a href="SEO.html">
+                                        <img src="assets/img/course/SEO.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="details">
+                                    <div class="details-inner">
+                                        <div class="emt-user">
+                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
+                                            <span class="align-self-center">SEO</span>
+                                        </div>
+                                        <h6><a href="SEO.html">Process of optimizing a website to rank higher in search engine results.</a></h6>
+                                    </div>
+                                    <div class="emt-course-meta">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">APPLY NOW</a></p>
+                                            </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-course-inner">
+                                <div class="thumb">
+                                    <a href="Office automation.html">
+                                        <img src="assets/img/course/office auto.jpg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="details">
+                                    <div class="details-inner">
+                                        <div class="emt-user">
+                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
+                                            <span class="align-self-center">Office automation</span>
+                                        </div>
+                                        <h6><a href="Office automation.html">Office automation streamlines office tasks.</a></h6>
+                                    </div>
+                                    <div class="emt-course-meta">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <!-- <div class="rating">
+                                                    <i class="fa fa-star"></i> 4.3
+                                                    <span>(23)</span>
+                                                </div> -->
+                                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">APPLY NOW</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -780,34 +612,161 @@
                         <div class="col-md-4">
                             <div class="single-course-inner">
                                 <div class="thumb">
-                                    <img src="assets/img/course/Python.png" alt="img">
+                                    <a href="Social media Marketing.html">
+                                        <img src="assets/img/course/social media.jpg" alt="img">
+                                    </a>
                                 </div>
                                 <div class="details">
                                     <div class="details-inner">
                                         <div class="emt-user">
                                             <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
-                                            <span class="align-self-center">Python</span>
+                                            <span class="align-self-center">Social media Marketing</span>
                                         </div>
-                                        <h6><a href="course-details.html">Popular programming language used for various applications.</a></h6>
+                                        <h6><a href="Social media Marketing.html">Social media marketing uses social media for promotion.</a></h6>
                                     </div>
                                     <div class="emt-course-meta">
                                         <div class="row">
                                             <div class="col-6">
+                                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">APPLY NOW</a></p>
+                                            </div>
                                              
-                                                <p>APPLY NOW</p>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="price text-right">
-                                                    Price: <span>$74.00</span>
-                                                </div>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
-                     
+                        <div class="col-md-4">
+                            <div class="single-course-inner">
+                                <div class="thumb">
+                                    <a href="Graphic Designing.html">
+                                        <img src="assets/img/course/graphic.jpg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="details">
+                                    <div class="details-inner">
+                                        <div class="emt-user">
+                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
+                                            <span class="align-self-center">Graphic Designing</span>
+                                        </div>
+                                        <h6><a href="Graphic Designing.html">Graphic designing creates visual content for communication.</a></h6>
+                                    </div>
+                                    <div class="emt-course-meta">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">APPLY NOW</a></p>
+                                            </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="single-course-inner">
+                                <div class="thumb">
+                                    <a href="Facebook ADs.html">
+                                        <img src="assets/img/course/facebook.jpg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="details">
+                                    <div class="details-inner">
+                                        <div class="emt-user">
+                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
+                                            <span class="align-self-center">Facebook Ads</span>
+                                        </div>
+                                        <h6><a href="Facebook ADs.html">Facebook ads promote content on the Facebook platform</a></h6>
+                                    </div>
+                                    <div class="emt-course-meta">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">APPLY NOW</a></p>
+                                            </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-course-inner">
+                                <div class="thumb">
+                                    <a href="Instagram ADs.html">
+                                        <img src="assets/img/course/instagram.jpg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="details">
+                                    <div class="details-inner">
+                                        <div class="emt-user">
+                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
+                                            <span class="align-self-center">Instagram Ads</span>
+                                        </div>
+                                        <h6><a href="Instagram ADs.html">Instagram ads promote content on the Instagram platform.</a></h6>
+                                    </div>
+                                    <div class="emt-course-meta">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">APPLY NOW</a></p>
+                                            </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-course-inner">
+                                <div class="thumb">
+                                    <a href="Google ADs .html">
+                                        <img src="assets/img/course/google ads.jpg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="details">
+                                    <div class="details-inner">
+                                        <div class="emt-user">
+                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
+                                            <span class="align-self-center">Google Ads</span>
+                                        </div>
+                                        <h6><a href="Google ADs .html">Google Ads promote content on the Google search network.</a></h6>
+                                    </div>
+                                    <div class="emt-course-meta">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">APPLY NOW</a></p>
+                                            </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-course-inner">
+                                <div class="thumb">
+                                    <a href="Youtube ADs.html">
+                                        <img src="assets/img/course/youtube ads.jpg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="details">
+                                    <div class="details-inner">
+                                        <div class="emt-user">
+                                            <span class="u-thumb"><img src="assets/img/author/100.png" alt="img"></span>
+                                            <span class="align-self-center">Youtube Ads</span>
+                                        </div>
+                                        <h6><a href="Youtube ADs.html">YouTube ads promote content on the YouTube platform.</a></h6>
+                                    </div>
+                                    <div class="emt-course-meta">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScT6FZLtLyXDNqekMKlh4Y17ud099zuRYLGNBqUlrVBpY_Q6w/viewform?usp=sf_link">APPLY NOW</a></p>
+                                            </div>
+                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                         
                       
                         
@@ -839,14 +798,12 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="widget widget_about text-center">
-                            <a href="index.html"><img style="height: 150px;" src="assets/img/logo-2.png" alt="img"></a>
+                            <a href="index.html"><img style="height: 150px;" src="assets/img/footer-logo.png" alt="img"></a>
                             <div class="details">
                                 <p>Welcome to Skills Academy Abbottabad! Unlock your potential and achieve your goals with our career and personal development programs. Join us today!</p>
                                 <ul class="social-media">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    <li><a href="https://www.facebook.com/theskillsacademyabbottabad"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.instagram.com/theskillsacademyabbottabad"><i class="fa fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -862,46 +819,20 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <!-- <div class="widget widget_blog_list">
-                            <h4 class="widget-title">News & Blog</h4>
-                            <ul>
-                                <li>
-                                    <h6><a href="blog-details.html">Big Ideas Of Business Branding Info.</a></h6>
-                                    <span class="date"><i class="fa fa-calendar"></i>December 7, 2021</span>
-                                </li>
-                                <li>
-                                    <h6><a href="blog-details.html">Ui/Ux Ideas Of Business Branding Info.</a></h6>
-                                    <span class="date"><i class="fa fa-calendar"></i>December 7, 2021</span>
-                                </li>
-                            </ul>
-                        </div> -->
                         <div class="widget widget_nav_menu">
-                            <h4 class="widget-title">Course</h4>
+                            <h4 class="widget-title">Courses</h4>
                             <ul>
-                                <li><a href="course.html">Social Media Marketing</a></li>
-                                <li><a href="course.html">Video Editing</a></li>
-                                <li><a href="course.html">Google Ads</a></li>
-                                <li><a href="course.html">Web Development</a></li>
-                                <li><a href="course.html">Web Designing</a></li>
-                                <!-- <li><a href="course.html">Branding design</a></li> -->
-                                <li><a href="course.html">Ui/Ux designing </a></li>
-                                <li><a href="course.html">Graphics design</a></li>
+                                <li><a href="Social media Marketing.html">Social Media Marketing</a></li>
+                                <li><a href="Video Editing.html">Video Editing</a></li>
+                                <li><a href="Google ADs .html">Google Ads</a></li>
+                                <li><a href="Web Development.html">Web Development</a></li>
+                                <li><a href="Web Designing.html">Web Designing</a></li>
+                                <li><a href="UIUX designing.html">Ui/Ux designing </a></li>
+                                <li><a href="Graphic Designing.html">Graphics design</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <!-- <div class="widget widget_nav_menu">
-                            <h4 class="widget-title">Course</h4>
-                            <ul>
-                                <li><a href="course.html">Branding design</a></li>
-                                <li><a href="course.html">Ui/Ux designing </a></li>
-                                <li><a href="course.html">Make Elements</a></li>
-                                <li><a href="course.html">Business</a></li>
-                                <li><a href="course.html">Graphics design</a></li>
-                            </ul>
-                        </div> -->
-                        <!-- <div class="fb-page" data-href="https://www.facebook.com/theskillsacademyabbottabad" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/theskillsacademyabbottabad" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/theskillsacademyabbottabad">The Skills Academy Abbottabad</a></blockquote></div> -->
-                        <!-- <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftheskillsacademyabbottabad%2Fposts%2Fpfbid01CmX51AF9TjUHsUCe2FjtWeomE2Vn5N8ZhTnKERSK2sV6NJX2gsjnEQrWkv5a2Lvl&show_text=true&width=500" width="500" height="667" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
                         <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftheskillsacademyabbottabad&tabs=timeline&width=255&height=317&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="255" height="317" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                     </div>
                 </div>
@@ -911,18 +842,8 @@
             <div class="container">
                 <div>
                     <div>
-                        <p style="text-align: center;">copyright 2022 by solverwp.com</p>
+                        <p style="text-align: center;">copyright 2024 by The Skills Academy</p>
                     </div>
-                    <!-- <div class="col-md-7 text-md-right align-self-center mt-md-0 mt-2">
-                        <div class="widget_nav_menu">
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="pricing.html">Our Pricing</a></li>
-                                <li><a href="blog.html">blog</a></li>
-                            </ul>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -935,11 +856,26 @@
     </div>
     <!-- back to top area end -->
 
-
+    
     <!-- all plugins here -->
     <script src="assets/js/vendor.js"></script>
     <!-- main js  -->
     <script src="assets/js/main.js"></script>
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.courses-slider').slick({
+                autoplay:true,
+                autoplaySpeed:3000,
+                slidesToShow:1,
+                slidesToScroll:1
+            });
+        });
+    </script>
+    
+
 </body>
 
 </html>
